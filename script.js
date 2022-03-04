@@ -1,5 +1,6 @@
 'use strict';
 const advice = [
+  `It is easy to sit up and take notice, what's difficult is getting up and taking action.`,
   `If your dreams don’t scare you, they’re not big enough.`,
   `It’s better to aim high and miss than aim low and hit.`,
   `Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.`,
