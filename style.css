@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 html,
@@ -24,7 +25,7 @@ body {
   justify-items: center;
   align-items: center;
   gap: 0.5rem;
-  width: 350px;
+  max-width: 350px;
   border-radius: 10px;
   box-shadow: 20px 80px 40px hsla(218, 27%, 6%, 0.151),
     20px 80px 20px 40px hsla(216, 35%, 14%, 0.212),
@@ -35,7 +36,7 @@ body {
   font-size: 10px;
   color: hsl(150, 100%, 66%);
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +44,7 @@ body {
   width: 100%;
 }
 
-.advice {
+.advice-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,21 +52,21 @@ body {
   padding: 0 10px 15px;
 }
 
-.advice p {
+.advice-container p {
   text-align: center;
   font-weight: 800;
   font-size: 28px;
   color: hsl(0, 0%, 100%);
 }
 
-.advice p::before {
+.advice-container p::before {
   content: open-quote;
-  margin: -5px;
+  margin: 1px;
 }
 
-.advice p::after {
+.advice-container p::after {
   content: close-quote;
-  margin: -5px;
+  margin: 1px;
 }
 
 .advice-divider {
@@ -90,7 +91,22 @@ body {
 
 @media screen and (max-width: 280px) {
   .container {
-    max-width: 80%;
+    max-width: 270px;
+    box-shadow: none;
+  }
+
+  .advice-divider {
+    width: 100%;
+  }
+
+  .advice-divider .divider {
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    box-shadow: none;
   }
 }
 
