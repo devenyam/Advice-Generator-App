@@ -5,3 +5,18 @@ You'd have to receive the **_advice_** via an API in order to complete the task.
 ---
 
 ## Screenshots
+
+![Screenshot #1](</assets/Screenshot%20(33).png>)
+
+![Screenshot #2](</assets/Screenshot%20(34).png>)
+
+---
+
+# Languages Used
+
+- HTML/CSS
+- JavaScript
+
+---
+
+_Feel free to edit the code and learn from it🙂...although there isn't much to learn😂😅_
