@@ -7,7 +7,7 @@ const container = document.querySelector('.container');
 
 const API_URL = `https://api.adviceslip.com/advice`;
 
-// USING ES6 FETCH API METHOD -- FETCH
+// USING ES6 FETCH API -- FETCH
 
 dice.addEventListener('click', function () {
   fetch(API_URL)
@@ -29,7 +29,7 @@ function renderAdvice(data) {
 }
 
 //////////////////////////////////////////////////////
-// USING THE OLD AJAX METHOD -- XMLHttpRequest
+// USING THE OLD AJAX -- XMLHttpRequest
 
 // document.addEventListener('DOMContentLoaded', function () {
 //   dice.addEventListener('click', API_Request);
